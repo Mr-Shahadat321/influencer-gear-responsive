@@ -20,6 +20,7 @@
 
 .display-flex{
     display: flex;
+    
 }
 
 .txt-color-common {
@@ -74,6 +75,7 @@
 .banner-description {
     font-weight: 600;
     margin: 15px 0;
+    
 }
 
 .banner-img {
@@ -83,6 +85,19 @@
     background-size: contain;
 }
 
+/* company-container */
+
+.company-container {
+    margin: 0 auto;
+    text-align: center;
+}
+.company {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  justify-content: center;   
+  gap: 80px;                  
+}
+
 /* responsive-small-device */
 
 @media screen and (max-width: 576px) {
@@ -90,8 +105,15 @@
        .navbar,
        .nav-right,
        .nav-banner-container
-
-         {
+               {
         flex-direction: column;
        }
+       .banner-content {
+        max-width: 550px;
+}
+.banner-img img {
+    width: 80%;
+    height: 80%;
+    
+}
 }
