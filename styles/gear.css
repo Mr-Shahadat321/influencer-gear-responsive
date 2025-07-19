@@ -9,3 +9,41 @@
   font-weight: 400;
   font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* share-style */
+
+.display-flex{
+    display: flex;
+}
+
+.txt-color-common {
+    color: #3A3A3A;
+}
+
+/* Nav-bar style */
+
+.navbar{
+  justify-content: space-between;
+  margin: 50px;
+  text-align: center;
+}
+.nav-right li {
+    list-style: none;
+}
+.nav-right a {
+    text-decoration: none;
+    margin-left: 34px;
+}
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-right a {
+   font-weight: 600;
+} 
